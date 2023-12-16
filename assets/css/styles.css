@@ -835,7 +835,7 @@ img {
 
 
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== TESTIMONIAL ==========
 .testimonial__data,
 .testimonial__header{
   display: flex;
@@ -874,7 +874,9 @@ img {
 .swiper-container .swiper-pagination-testimonial{
   bottom: 0;
 
-}
+}  ==========*/
+
+
 /*==================== CONTACT ME ====================*/
 .contact__container{
   row-gap: 3rem;
@@ -904,9 +906,9 @@ img {
 .contact__content{
   background-color: var(--input-color);
   border-radius: .5rem;
-  padding: .75rem 1rem .25rem;
+  padding: .25rem 1rem .25rem;  /* vs. .75rem 1rem .25rem */
 }
-
+/*
 .contact__label{
   font-size: var(--smaller-font-size);
   color: var(--title-color);
@@ -935,8 +937,10 @@ img {
 .button__area span{
   margin-left: 160px;
   margin-top: -38px;
-  display: none;
-}
+  display: none; 
+}  */
+
+
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
@@ -957,7 +961,7 @@ img {
 }
 
 .footer__subtitle{
-  font-size: var(--small-font-size);
+  font-size: var(--large-font-size); /* vs. small */
 }
 
 .footer__links{
@@ -971,8 +975,9 @@ img {
 }
 
 .footer__social{
-  font-size: 1.25rem;
+  font-size: 2.25rem; /* vs. 1.25 */
   margin-right: var(--mb-1-5);
+  text-align: center;
 }
 
 .footer__social:hover{
@@ -980,7 +985,7 @@ img {
 }
 
 .footer__copy{
-  font-size: var(--smaller-font-size);
+  font-size: var(--medium-font-size); /* vs. small */
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
