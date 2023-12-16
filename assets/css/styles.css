@@ -893,6 +893,7 @@ img {
   font-size: 2rem;
   color: var(--first-color);
   margin-right: var(--mb-0-100);
+  display: center;
 }
 
 .contact__title{
