@@ -946,8 +946,7 @@ img {
 
 /*==================== FOOTER ====================*/
 .footer{
-  padding-top: 20rem;
-  padding-bottom: 0rem;
+  padding-top: 2rem;
 }
 
 .footer__container{
@@ -956,7 +955,7 @@ img {
 
 .footer__bg{
   background-color: var(--first-color-second);
-  padding: 0rem 0 0rem;
+  padding: 2rem 0 3rem;
 }
 
 .footer__title{
@@ -999,6 +998,7 @@ img {
 .footer__link,
 .footer__social{
   color: #fff;
+}
 /*========== SCROLL UP ==========*/
 .scrollup{
   position: fixed;
