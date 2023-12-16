@@ -453,12 +453,11 @@ img {
   cursor: pointer;
 }
 
-.skills__icon,
+/*.skills__icon,
 .skills__arrow{
   font-size: 2rem;
   color: var(--first-color);
-}
-
+} */
 .skills__icon{
   margin-right: var(--mb-0-75);
 }
@@ -472,9 +471,9 @@ img {
   color: var(--text-color-light);
 }
 
-.skills__arrow{
+/*.skills__arrow{
   margin-left: auto;
-  transition: .4s;
+  transition: .4s; */
 }
 
 .skills__list{
@@ -570,9 +569,11 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
-.skills__open .skills__arrow{
+/*.skills__open .skills__arrow{
   transform: rotate(-180deg);
-}
+} */
+
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
   display: flex;
@@ -644,8 +645,7 @@ img {
 .qualification__button.qualification__active{
   color: var(--first-color);
 }
-/*==================== SERVICES ====================*/
-.services__container{
+/*==================== SERVICES ===============
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -737,11 +737,12 @@ img {
   margin-right: var(--mb-0-25);
 }
 
-/* Active Modal */
+/* Active Modal 
 .active-modal{
   opacity: 1;
-  visibility: visible;
-}
+  visibility: visible;  
+  .services__container{
+} */
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
@@ -802,7 +803,7 @@ img {
 .swiper-pagination-bullet{
   outline: none;
 }
-/*==================== PROJECT IN MIND ====================*/
+/*==================== PROJECT IN MIND ===========
 .project{
   text-align: center;
 }
@@ -830,7 +831,10 @@ img {
   width: 232px;
   height: 290px;
   justify-self: center;
-}
+}    =========*/
+
+
+
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header{
