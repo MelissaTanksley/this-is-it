@@ -192,6 +192,12 @@ img {
 .nav__toggle{
   color: var(--text-color);
   font-weight: var(--font-medium);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .nav__logo:hover{
