@@ -948,7 +948,7 @@ img {
 }
 
 .footer__container{
-  row-gap: 3.5rem;
+  row-gap: 1.5rem; /* vs. 5.5*/
 }
 
 .footer__bg{
@@ -962,7 +962,7 @@ img {
 }
 
 .footer__subtitle{
-  font-size: var(--large-font-size); /* vs. small */
+  font-size: var(--medeium-font-size); /* vs. small */
 }
 
 .footer__links{
