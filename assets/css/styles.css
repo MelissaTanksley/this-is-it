@@ -992,7 +992,9 @@ img {
   text-align: center;
   color: #000000;
   margin-top: var(--mb-3);
+  padding-bottom: 31.25rem;
 }
+
 
 .footer__title,
 .footer__subtitle,
