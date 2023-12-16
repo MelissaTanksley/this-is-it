@@ -878,9 +878,10 @@ img {
 
 
 /*==================== CONTACT ME ====================*/
-.contact__container{
+/*.contact__container{
   row-gap: 3rem;
-}
+
+} */
 
 .contact__information{
   display: flex;
@@ -993,7 +994,7 @@ img {
 }
 
 .footer__social:hover{
-  color: var(--first-color-lighter);
+  color: var(--firhst-color-lighter);
 }
 
 .footer__copy{
