@@ -954,7 +954,7 @@ img {
 
 .footer__bg{
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 1rem 0 2rem;  /* vs. 2rem 0 3rem*/
 }
 
 .footer__title{
@@ -969,7 +969,7 @@ img {
 .footer__links{
   display: flex;
   flex-direction: column;
-  row-gap: 1.5rem;
+  row-gap: 1rem; /* vs 1.5 */
 }
 
 .footer__link:hover{
