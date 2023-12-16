@@ -192,12 +192,6 @@ img {
 .nav__toggle{
   color: var(--text-color);
   font-weight: var(--font-medium);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
 }
 
 .nav__logo:hover{
@@ -303,7 +297,7 @@ img {
 }
 
 .home__blob{
-  width: 200px;
+  width: 250px;
   fill: var(--first-color);
 }
 
@@ -970,7 +964,7 @@ img {
   height: 3rem;
   border: 0.125rem;
   position: relative;
-} 
+}
 
 
 /*.footer__title{
@@ -986,7 +980,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
-  align: right;
+  align: center;
 }
 
 .footer__link:hover{
