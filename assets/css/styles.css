@@ -981,6 +981,7 @@ img {
 .footer__social{
   font-size: 1.25rem;
   margin-right: var(--mb-1-5);
+  align: center;
 }
 
 .footer__social:hover{
