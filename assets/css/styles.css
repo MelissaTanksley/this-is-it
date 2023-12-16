@@ -946,7 +946,8 @@ img {
 
 /*==================== FOOTER ====================*/
 .footer{
-  padding-top: 2rem;
+  padding-top: 20rem;
+  padding-bottom: 0rem;
 }
 
 .footer__container{
