@@ -1005,7 +1005,7 @@ img {
   font-size: var(--smaller-font-size);
   text-align: center;
   color: #000000;
-  margin-top: 1rem;
+  margin-top: 0.1rem;
   padding-top: 0rem;
   padding-bottom: 1.25rem;
 }
