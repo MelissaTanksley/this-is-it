@@ -987,7 +987,7 @@ img {
   font-size: var(--small-font-size);
 } 
 
-.footer__links{
+/*.footer__links{
   display: center;
   flex-direction: row;
   row-gap: 1.5rem;
@@ -995,7 +995,19 @@ img {
   margin-left:center;
   margin-right:center;
   
+} */
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
 }
+
+/* Optional: Adjust width if needed */
+.footer__links a {
+  width: 1.5rem;
+}
+
 
 .footer__link:hover{
   color: var(--first-color-lighter);
