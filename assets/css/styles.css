@@ -434,7 +434,7 @@ img {
   align-items: center;
 
 /* Assuming a parent container with a class like 'skills__grid-container' */
-.skills__container-container {
+.skills__container container grid {
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
 }
