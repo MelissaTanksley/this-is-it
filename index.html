@@ -22,13 +22,13 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Melissa Tanksley</title>
+    <title>Melissa Tanksley's Portfolio</title>
     <style>
       :root {
           --background-light: white;
           --text-light: black;
           --background-dark: black;
-          --text-dark: rgb(12, 104, 66);
+          --text-dark: rgb(#fffff);
           --transition-speed: 0.3s;
       }
 
@@ -48,6 +48,16 @@
   </head>
   <body>
     
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const body = document.body;
+          const darkModeToggle = document.getElementById('theme-button');
+
+          darkModeToggle.addEventListener('click', function() {
+              body.classList.toggle('dark-mode');
+          });
+      });
+    </script>
     <!---------dark mode---------->
     <!--<style>
         body {
