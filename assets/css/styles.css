@@ -964,7 +964,7 @@ img {
 }
 
 .footer__container{
-  row-gap: 3.5rem;
+  row-gap: 2.5rem;
 }
 
 .footer__bg{
@@ -991,7 +991,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
-  align: center;
+  text-align: center;
 }
 
 .footer__link:hover{
@@ -1001,7 +1001,7 @@ img {
 .footer__social{
   font-size: 2rem;
   margin-right: var(--mb-1-5);
-  position: relative;
+  position: center;
 }
 
 .footer__social:hover{
