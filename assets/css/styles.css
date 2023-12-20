@@ -1000,17 +1000,25 @@ img {
   gap: 1.5rem; /* Adjusted for better compatibility */
 }
 
-.footer__links a {
-  /* Optional: Remove width property */
-}
 
 .footer__link:hover {
   color: var(--first-color-lighter);
 }
 
+.footer__socials {
+  display: flex;
+  justify-content: center; /* Center the social links horizontally */
+  gap: 1.5rem; /* Adjusted for better compatibility */
+}
+
 .footer__social {
   font-size: 2rem;
+  /* Optional: Adjust margins if needed */
   margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover {
+  color: var(--first-color-lighter);
 }
 
 
