@@ -875,20 +875,23 @@ img {
 
 } */
 
-.contact__information{
+.contact__information {
   display: flex;
+  justify-content: center; /* Center the content horizontally */
+  flex-direction: column; /* Stack child elements vertically */
   margin-bottom: var(--mb-2);
   text-align: center;
-  margin-top: 3rem; 
+  margin-top: 3rem;
   margin-bottom: 5rem;
 }
 
-.contact__icon{
+.contact__icon {
   font-size: 2rem;
   color: var(--first-color);
   margin-right: var(--mb-0-100);
-  display: center;
+  margin: 0 auto; /* Center the child element horizontally */
 }
+
 
 .contact__title{
   font-size: var(--h3-font-size);
