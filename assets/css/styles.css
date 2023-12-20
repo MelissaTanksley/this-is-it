@@ -1013,20 +1013,15 @@ img {
   color: var(--first-color-lighter);
 }
 
-/*.footer__social{
+.footer__social{
   font-size: 2rem;
   margin-right: var(--mb-1-5);
   position: center;
   margin-left: center;
   margin-right:center;
  
-} */
+} 
 
-.footer__social {
-  font-size: 2rem;
-  margin: 0 auto; /* Center horizontally */
-  display: block; /* Ensure it's a block-level element for margin auto to work */
-}
 
 .footer__social:hover{
   color: var(--firhst-color-lighter);
