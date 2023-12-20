@@ -977,7 +977,6 @@ img {
   position: relative;
 }
 
-
 /.footer__title{
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
@@ -987,7 +986,7 @@ img {
   font-size: var(--small-font-size);
 } 
 
-/*.footer__links{
+.footer__links{
   display: center;
   flex-direction: row;
   row-gap: 1.5rem;
@@ -995,7 +994,7 @@ img {
   margin-left:center;
   margin-right:center;
   
-} */
+} 
 
 .footer__links {
   display: flex;
