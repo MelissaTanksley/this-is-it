@@ -25,7 +25,28 @@
     <title>Melissa Tanksley</title>
   </head>
   <body>
+    <style>
+      :root {
+          --background-light: white;
+          --text-light: black;
+          --background-dark: black;
+          --text-dark: white;
+          --transition-speed: 0.3s;
+      }
 
+      body {
+          padding: 25px;
+          background-color: var(--background-light);
+          color: var(--text-light);
+          font-size: 25px;
+          transition: background-color var(--transition-speed), color var(--transition-speed);
+      }
+
+      body.dark-mode {
+          background-color: var(--background-dark);
+          color: var(--text-dark);
+      }
+  </style>
     <!---------dark mode---------->
     <!--<style>
         body {
