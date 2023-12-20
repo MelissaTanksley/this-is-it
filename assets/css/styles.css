@@ -429,10 +429,17 @@ img {
 
 }
 /*==================== SKILLS ====================*/
-.skills__container{
-  row-gap: 0;
-  align-items: center;
+/* Assuming a parent container with a class like 'skills__grid-container' */
+.skills__grid-container {
+  display: grid;
+  place-items: center; /* Center both horizontally and vertically */
 }
+
+.skills__container {
+  row-gap: 0;
+  /* Remove align-items property if the parent container handles vertical alignment */
+}
+
 
 .skills__header{
   display: flex;
