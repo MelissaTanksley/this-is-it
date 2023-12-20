@@ -439,11 +439,6 @@ img {
   place-items: center; /* Center both horizontally and vertically */
 }
 
-.skills__container {
-  row-gap: 0;
-  /* Remove align-items property if the parent container handles vertical alignment */
-}
-
 
 
 
