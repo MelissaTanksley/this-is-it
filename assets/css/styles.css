@@ -996,28 +996,24 @@ img {
 
 .footer__links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Center the links horizontally and add space between them */
   column-gap: 1.5rem;
 }
 
-/* Optional: Adjust width if needed */
+/* Remove width property */
 .footer__links a {
-  width: 1.5rem;
+  /* width: 1.5rem; */
 }
 
-
-.footer__link:hover{
+.footer__link:hover {
   color: var(--first-color-lighter);
 }
 
-.footer__social{
+.footer__social {
   font-size: 2rem;
   margin-right: var(--mb-1-5);
-  position: center;
-  margin-left: center;
-  margin-right:center;
- 
-} 
+}
+
 
 
 .footer__social:hover{
