@@ -988,7 +988,7 @@ img {
 } 
 
 .footer__links{
-  display: flex;
+  display: center;
   flex-direction: row;
   row-gap: 1.5rem;
   width: 1.5rem; 
