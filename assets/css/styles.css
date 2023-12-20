@@ -996,13 +996,12 @@ img {
 
 .footer__links {
   display: flex;
-  justify-content: space-between; /* Center the links horizontally and add space between them */
-  column-gap: 1.5rem;
+  justify-content: center; /* Center the links horizontally */
+  gap: 1.5rem; /* Adjusted for better compatibility */
 }
 
-/* Remove width property */
 .footer__links a {
-  /* width: 1.5rem; */
+  /* Optional: Remove width property */
 }
 
 .footer__link:hover {
@@ -1013,7 +1012,6 @@ img {
   font-size: 2rem;
   margin-right: var(--mb-1-5);
 }
-
 
 
 .footer__social:hover{
