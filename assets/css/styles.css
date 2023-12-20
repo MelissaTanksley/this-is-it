@@ -1002,6 +1002,9 @@ img {
   font-size: 2rem;
   margin-right: var(--mb-1-5);
   position: center;
+  margin-left:auto;
+  margin-right:auto;
+ 
 }
 
 .footer__social:hover{
