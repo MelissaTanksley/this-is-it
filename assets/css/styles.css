@@ -992,8 +992,8 @@ img {
   flex-direction: row;
   row-gap: 1.5rem;
   width: 1.5rem; 
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:center;
+  margin-right:center;
   
 }
 
