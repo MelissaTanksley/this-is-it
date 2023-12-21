@@ -1,6 +1,10 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/*==================== background animation ==================*/
+
+
+
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -433,9 +437,8 @@ img {
   row-gap: 0;
   align-items: center;
 
-/* Assuming a parent container with a class like 'skills__grid-container' */
 .skills__container container grid {
-  display: grid;
+  display: flex;
   place-items: center; /* Center both horizontally and vertically */
 }
 
@@ -524,35 +527,15 @@ img {
 .skills__node{
   width: 70%;
 }
-.skills__express{
-  width: 50%;
-}
+
 .skills__python{
   width: 35%;
 }
 
-.skills__mongo{
-  width: 70%;
-}
 .skills__mysql{
   width: 60%;
 }
-.skills__firebase{
-  width: 60%;
-}
 
-.skills__onpage{
-  width: 80%;
-}
-.skills__offpage{
-  width: 70%;
-}
-.skills__technical{
-  width: 60%;
-}
-.skills__ads{
-  width: 75%;
-}
 
 .skills__close .skills__list{
   height: 0;
