@@ -867,15 +867,15 @@ img {
 
 } */
 
-.contact__information {
+/*contact__information {
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; 
+  flex-direction: column; 
   margin-bottom: var(--mb-2);
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 5rem;
-}
+} 
 
 .contact__icon {
   font-size: 2rem;
@@ -883,7 +883,7 @@ img {
   margin-right: var(--mb-0-100);
   margin: 0 auto; /* Center the child element horizontally */
 }
-
+*/
 
 .contact__title{
   font-size: var(--h3-font-size);
@@ -1181,6 +1181,7 @@ img {
   
   body{
     margin: 0;
+    background-image:url ("https://image.freepik.com/free-vector/abstract-background-cyber-security-information-network-protection_42331-798.jpg")
   }
 
   .section{
