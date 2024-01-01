@@ -1244,11 +1244,11 @@ img {
     text-align: center;
   }
   
-  .image1 {
-    width: 250px; /* Set the width of image1 */
-    height: 250px; /* Set the height of image1 */
-    /* Add any additional styles for image1 here */
-  }
+  /*.image1 {
+    width: 250px;
+    height: 250px; 
+    
+  } */
   
   .image2 {
     width: 150px; /* Set the width of image2 */
