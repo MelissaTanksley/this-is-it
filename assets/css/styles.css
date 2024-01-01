@@ -445,7 +445,7 @@ img {
   align-items: center;
 
 .skills__container container grid {
-  display: flex;
+  display: center;
   place-items: center; /* Center both horizontally and vertically */
 }
 
