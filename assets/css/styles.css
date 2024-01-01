@@ -1251,8 +1251,8 @@ img {
   } */
   
   .image2 {
-    width: 300px; /* Set the width of image2 */
-    height: 300px; /* Set the height of image2 */
+    width: 700px; /* Set the width of image2 */
+    height: 700px; /* Set the height of image2 */
     border-radius: 0%; /* Apply a circular border-radius for a rounded appearance */
     border: 2px solid #000; /* Add a white border around image2 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lifted look */
