@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*==================== background animation ==================*/
-
+* {
+  background-image: url ("https://image.freepik.com/free-vector/abstract-background-cyber-security-information-network-protection_42331-798.jpg")
+}
 
 
 /*==================== VARIABLES CSS ====================*/
@@ -1181,7 +1183,7 @@ img {
   
   body{
     margin: 0;
-    background-image:url ("https://image.freepik.com/free-vector/abstract-background-cyber-security-information-network-protection_42331-798.jpg")
+    
   }
 
   .section{
