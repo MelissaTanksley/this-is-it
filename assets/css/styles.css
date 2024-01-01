@@ -786,14 +786,14 @@ img {
   outline: none;
 }
 
-/* porjects */
+/* porjects
 
 .project{
   text-align: center;
 }
 
 .project__bg{
-  background-image: url("ltbg.jpg");
+  background-color: var(--first-color-second);
   padding-top: 3rem;
 }
 
