@@ -1284,6 +1284,7 @@ img {
 
   .about__description{
     text-align: center;
+    color: bold;
   }
 
   .about__info{
