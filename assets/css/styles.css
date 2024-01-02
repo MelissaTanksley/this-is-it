@@ -308,6 +308,7 @@ img {
 .home__title{
   font-size: var(--big-font-size);
   color: chartreuse;
+  flex-direction: row;
 }
 
 .home__subtitle{
