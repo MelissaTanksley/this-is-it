@@ -9,7 +9,7 @@
 :root {
     --header-height: 3rem;
     --header-color: #fff;
-    --background: none;
+    --background-mage: none;
 
     /*========== Colors ==========*/
     /* Change favorite color */
@@ -171,7 +171,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: #fff;
 }
 
 /*==================== NAV ====================*/
@@ -1256,7 +1256,7 @@ img {
   
   .image2 {
     width: 400px; /* Set the width of image2 */
-    height: 400px; /* Set the height of image2 */
+    height: 3750px; /* Set the height of image2 */
     border-radius: 0%; /* Apply a circular border-radius for a rounded appearance */
     border: 2px solid #000; /* Add a white border around image2 */
     box-shadow: 0 4px 8px rgba(21, 182, 61, 0.1); /* Add a subtle box shadow for a lifted look */
