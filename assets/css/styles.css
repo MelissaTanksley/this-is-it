@@ -9,6 +9,7 @@
 :root {
     --header-height: 3rem;
     --header-color: #fff;
+    --background: none;
 
     /*========== Colors ==========*/
     /* Change favorite color */
