@@ -472,7 +472,7 @@ img {
 
 .skills__title{
   font-size: var(--h3-font-size);
-  color: #a573e6;
+  color: #eb2424;
 }
 
 /*.skills__subtitle{
@@ -494,13 +494,13 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
-  color: #a573e6;
+  color: #eb2424;
 }
 
 .skills__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: #a573e6;
+  color: #eb2424;
 }
 
 .skills__bar,
