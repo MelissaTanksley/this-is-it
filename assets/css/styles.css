@@ -139,7 +139,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: #07963e; 
+  color: #e93737; 
 }
 
 .section__subtitle {
@@ -307,7 +307,7 @@ img {
 
 .home__title{
   font-size: var(--big-font-size);
-  color: #a573e6;
+  color: #3749e9;
 }
 
 .home__subtitle{
@@ -472,7 +472,7 @@ img {
 
 .skills__title{
   font-size: var(--h3-font-size);
-  color: #eb2424;
+  color: #3749e9;
 }
 
 /*.skills__subtitle{
@@ -494,13 +494,13 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
-  color: #eb2424;
+  color: #3749e9;
 }
 
 .skills__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: #eb2424;
+  color: #3749e9;
 }
 
 .skills__bar,
@@ -590,7 +590,7 @@ img {
 .qualification__title{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: #07963e;
+  color: #3749e9;
 }
 
 /*.qualification__subtitle{
@@ -972,12 +972,12 @@ img {
 /.footer__title{
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
-  color:#07963e
+  color:#3749e9;
 }
 
 .footer__subtitle{
   font-size: var(--small-font-size);
-  color: #07963e;
+  color: #3749e9;
 } 
 
 .footer__links{
@@ -1025,7 +1025,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: #07963e;
+  color: #3749e9;
   margin-top: 0.1rem;
   padding-top: 0rem;
   padding-bottom: 1.25rem;
@@ -1036,7 +1036,7 @@ img {
 .footer__subtitle,
 .footer__link,
 .footer__social{
-  color: #07963e;
+  color: #3749e9;
 }
 /*========== SCROLL UP ==========*/
 .scrollup{
