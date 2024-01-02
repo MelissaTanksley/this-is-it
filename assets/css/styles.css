@@ -144,7 +144,7 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--medium-font-size);
   margin-bottom: var(--mb-3);
 }
 
@@ -154,16 +154,16 @@ img {
 }
 
 /*==================== LAYOUT ====================*/
-.container {
+/*.container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
-}
+} */
 
-.grid {
+/*.grid {
   display: grid;
   gap: 1.5rem;
-}
+}*/
 
 .header {
   width: 100%;
@@ -227,7 +227,7 @@ img {
   flex-direction: column;
   align-items: center;
   font-size: var(--medium-font-size);
-  color: chartreuse;
+  color: #000;
   font-weight: var(--font-medium);
 }
 
@@ -437,7 +437,7 @@ img {
 .about__buttons{
   display: flex;
   justify-content: center;
-  color:chartreuse;
+  color:#000;
 
 }
 /*==================== SKILLS ====================*/
@@ -1235,6 +1235,7 @@ img {
 
   .home__container{
     row-gap: 5rem;
+    background-color:#fff;
   }
 
   .home__content{
@@ -1260,7 +1261,7 @@ img {
     width: 400px; 
     height: 375px; 
     border-radius: 0%; 
-    border: 4px solid chartreuse; /* Add a white border around image2 */
+    border: 4px solid #000; /* Add a white border around image2 */
     box-shadow: 0 4px 8px rgba(21, 182, 61, 0.1); /* Add a subtle box shadow for a lifted look */
 
   }
