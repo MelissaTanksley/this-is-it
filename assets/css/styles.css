@@ -437,6 +437,7 @@ img {
 .about__buttons{
   display: flex;
   justify-content: center;
+  color:chartreuse;
 
 }
 /*==================== SKILLS ====================*/
@@ -472,7 +473,7 @@ img {
 
 .skills__title{
   font-size: var(--h3-font-size);
-  color: #3749e9;
+  color: chartreuse;
 }
 
 /*.skills__subtitle{
@@ -494,13 +495,13 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
-  color: #3749e9;
+  color: chartreuse;
 }
 
 .skills__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: #3749e9;
+  color: chartreuse;
 }
 
 .skills__bar,
@@ -590,7 +591,7 @@ img {
 .qualification__title{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: #3749e9;
+  color: chartreuse;
 }
 
 /*.qualification__subtitle{
@@ -953,7 +954,7 @@ img {
   padding-top: 2rem; */
 
 
-}
+
 
 .footer__container{
   row-gap: 2.5rem;
@@ -972,7 +973,7 @@ img {
 /.footer__title{
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
-  color:#3749e9;
+  color:chartreuse;
 }
 
 .footer__subtitle{
@@ -1025,7 +1026,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: #3749e9;
+  color: chartreuse;
   margin-top: 0.1rem;
   padding-top: 0rem;
   padding-bottom: 1.25rem;
@@ -1036,7 +1037,7 @@ img {
 .footer__subtitle,
 .footer__link,
 .footer__social{
-  color: #3749e9;
+  color: chartreuse;
 }
 /*========== SCROLL UP ==========*/
 .scrollup{
