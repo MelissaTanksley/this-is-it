@@ -187,7 +187,7 @@ img {
 .nav__logo,
 .nav__toggle{
   color: var(--text-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-strong;
 }
 
 .nav__logo:hover{
@@ -205,7 +205,7 @@ img {
 
 @media screen and (max-width: 767px){
   .nav__menu{
-    position: center;
+    position: fixed;
     bottom: -100%;
     left: 0;
     width: 100%;
