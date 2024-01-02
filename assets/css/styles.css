@@ -302,12 +302,12 @@ img {
 }
 
 .home__data{
-  grid-column: 1;
+  grid-column: ;
 }
 
 .home__title{
   font-size: var(--big-font-size);
-  color: #07963e;
+  color: #a573e6;
 }
 
 .home__subtitle{
